@@ -44,10 +44,6 @@ int minimax(int ** board, int AI, int player, int turns);//DETERMINES SCORE OF N
 void AIMove(int ** board, int turns, int AI);//MAKES NEXT MOVE FOR COMPUTER
 
 int main(){
-	//CREATE AND INITIALIZE THE PLAYING BOARD
-	int **board = initBoard();
-	printBoard(board);
-	
 	//BEGIN THE GAME
 	runGame();
 
